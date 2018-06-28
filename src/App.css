@@ -14,22 +14,47 @@
 }
 
 .listHeight {
-  height: 4rem;
+  width: 20%;
+  height: 4.5rem;
   vertical-align: top;
 }
 
+.listRight {
+  width: 25%;
+}
+
 .starSize {
-  font-size: 14px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.paddingMiddle {
+  margin-top: 0.4rem;
+}
+
+.arrowSize {
+  margin-top: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
   vertical-align: middle;
 }
 
 .listBody {
-  width: 70%;
-  height: 4rem;
+  width: 60%;
+  height: 4.5rem;
+}
+
+.arrow {
+  font-size: 20px;
+  vertical-align: bottom;
 }
 
 button {
   width: 100%;
+  border: 0px;
+      background-color: white;
 }
 
 .filterMenu {
@@ -40,7 +65,19 @@ button {
   justify-content: space-between;
 }
 
+.listMenu {
+  padding-left: 30px;
+  padding-right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 h5 {
+  margin: 0;
+}
+
+h4 {
   margin: 0;
 }
 
