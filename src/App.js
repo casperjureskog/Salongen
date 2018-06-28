@@ -8,7 +8,7 @@ class App extends Component {
     super(props);
     this.state = {
       filterMenuOn: false,
-      filterMenuState: 'emty'
+      filterMenuState: 'Pris filter'
     };
   }
 
@@ -29,27 +29,23 @@ class App extends Component {
   }
   
   filterMenu() {
-      if(this.state.filterMenuState === 'emty') {
-        return (
-          <button class="filterMenu" onClick={() => this.setState({ filterMenuOn: true, filterMenuState: 'menuDown' })}>
-            <h5>Pris filter</h5>
-            <i class="material-icons gold">expand_more</i>
-          </button>
-        )
-      } else {
-        this.filterMenuState
-      }
+    return (
+      <button class="filterMenu" onClick={() => this.setState({ filterMenuOn: !this.state.filterMenuOn })}>
+        <h4>{this.state.filterMenuState}</h4>
+        <i class="material-icons gold">{!this.state.filterMenuOn  ? 'expand_more' : 'expand_less'}</i>
+      </button>
+    )
   }
   
   filterList() {
     return (
-      <ul>
-        <li>'Inget filter'</li>
-        <li>'Pris 0 - 250 kr'</li>
-        <li>'Pris 250 - 500 kr'</li>
-        <li>'Pris 500 - 1000 kr'</li>
-        <li>'Pris 1000 - Upp kr'</li>
-      </ul>
+      <div>
+        <button class="filterMenu" onClick={() => this.setState({ filterMenuState: 'Pris filter' })}> Inget filter </button>
+        <button class="filterMenu" onClick={() => this.setState({ filterMenuState: 'Pris 0 - 250 kr' })}> Pris 0 - 250 kr </button>
+        <button class="filterMenu" onClick={() => this.setState({ filterMenuState: 'Pris 250 - 500 kr' })}> Pris 250 - 500 kr </button>
+        <button class="filterMenu" onClick={() => this.setState({ filterMenuState: 'Pris 500 - 1000 kr' })}> Pris 500 - 1000 kr </button>
+        <button class="filterMenu" onClick={() => this.setState({ filterMenuState: 'Pris 1000 - Upp kr' })}> Pris 1000 - Upp kr </button>
+      </div>
     )
   }
     
@@ -58,8 +54,8 @@ class App extends Component {
       <div className="App">
         {this.header()}
         {this.line()}
+        {this.filterMenu()}
         {this.state.filterMenuOn && this.filterList()}
-        {this.state.filterMenuState === 'emty' && this.filterMenu()}
         {this.line()}
         <ul>
          {
