@@ -13,6 +13,21 @@
   justify-content: space-between;
 }
 
+.listHeight {
+  height: 4rem;
+  vertical-align: top;
+}
+
+.starSize {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.listBody {
+  width: 70%;
+  height: 4rem;
+}
+
 button {
   width: 100%;
 }
