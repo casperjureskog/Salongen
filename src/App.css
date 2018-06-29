@@ -1,51 +1,126 @@
-.App {
+@font-face {
+  font-family: 'MillerBanner';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('MillerBanner'),
+    url(./fonts/MillerBanner.otf) format('otf'),
+}
 
+.fontMiller {
+  font-family: 'MillerBanner', sans-serif;
+}
+
+.infoFont {
+  font-size: 13px;
 }
 
 .App-header {
+  font-family: 'MillerBanner', sans-serif;
   background-color: white;
   width: inherit;
   height: 0.8rem;
   padding: 20px;
+  padding-bottom: 10px;
   color: black;
+  font-size: 22px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-button {
-  width: 100%;
+.listHeight {
+  width: 20%;
+  height: 4.5rem;
+  vertical-align: top;
+}
+
+.listRight {
+  width: 25%;
+}
+
+.starSize {
+  font-size: 11px;
+  vertical-align: middle;
+}
+
+.paddingMiddle {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.adressSize {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.ratingText {
+  font-size: 9px;
+  padding-left: 5px;
+  color: #BBBBBB;
+}
+
+.arrowSize {
+  margin-top: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  vertical-align: middle;
+  color: #BBBBBB;
+}
+
+.listBody {
+  width: 60%;
+  height: 4.5rem;
+}
+
+.arrow {
+  font-size: 20px;
+  vertical-align: bottom;
 }
 
 .filterMenu {
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 16px;
+  font-size: 13px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-h5 {
-  margin: 0;
+.menuPadding {
+  padding-bottom: 10px;
+}
+
+.listMenu {
+  padding-left: 20px;
+  padding-right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hrLight {
+  margin-left: 7%;
+  width: 89%;
+  margin-right: 4%;
+  margin-bottom: 1rem;
+  background-color: #E8E8E8; 
+  height: 1px; 
+  border: 0;
 }
 
 .gold {
-  color: #AA8939;
+  color: #D4B96A;
+}
+
+hr {
+  background-color: #D4B96A;
+  height: 1px;
+  border: 0;
 }
 
 .rotate {
   transform: rotate(90deg)
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
