@@ -1,0 +1,81 @@
+.infoList {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.nameRating {
+  padding-left: 0.7rem;
+}
+
+.hrLight {
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.tab {
+  padding-top: 1rem;
+  width: 50%;
+  text-align: center;
+}
+
+.starSizeDiv {
+  display: flex;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App-header {
+  color: #fff;
+}
+
+.salongHeader {
+  background-color: #999;
+  color: #fff;
+  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 0.8rem;
+}
+
+.iconPadding {
+  font-size: 18px;
+  padding-right: 0.5rem;
+  color: #999;
+}
+
+.white {
+  background-color: #fff;
+  height: 1px;
+  border: 0;
+}
+
+.menuHr {
+  margin-top: 0.5rem;
+  margin-bottom: 0px;
+}
+
+.headerSize {
+  font-size: 22px;
+}
+
+.starSize {
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.infoText {
+  font-size: 14px;
+}
+
+.graySpace {
+  height: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #F9F9F9;
+}

@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import MaterialIcon, {colorPallet} from 'material-icons-react';
 import './App.css';
 import SalongList from './salongList';
+import { Link } from 'react-router-dom'
 
-class App extends Component {
+class List extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -79,6 +80,7 @@ class App extends Component {
     SalongList.map((salong) => {
       if (salong.price > this.state.interMin && (salong.price < this.state.interMax || !this.state.interMax)) {
         lista.push( 
+          <Link to={"/salong/"+salong.id} >
           <div key={salong.id}> 
             <div class="listMenu">
               <div class="listHeight infoFont">{salong.time}</div>  
@@ -101,6 +103,7 @@ class App extends Component {
             </div>
             <div class="hrLight"></div>
           </div>
+          </Link>
         );
       }
     });
@@ -121,4 +124,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default List;
