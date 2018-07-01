@@ -1,49 +1,50 @@
 [{
   "id": 1,"title": "Sax & Fön", "adress": "Storgatan 1", "postNrStad": "111 11 Stockholm", "www": "www.saxofon.com", "price": 100, "phone": "08/800 00 00", 
   "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,", 
-  "hours": "10.00 - 18.00", "grade": 5, "time": "11.00", "duration": "45"
+  "hours": "10.00 - 18.00", "grade": 5, "time": "11.00", "duration": "45", "nummberOfGrades": "23"
 },
 {
   "id": 2, "title": "Hårizont", "adress": "Storgatan 2", "postNrStad": "111 11 Stockholm", "www": "www.harizont.com", "price": 150, "phone": "08/800 00 00", 
   "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,",
-  "hours": "10.00 - 18.00", "grade": 4, "time": "12.00", "duration": "35"
+  "hours": "10.00 - 18.00", "grade": 4, "time": "12.00", "duration": "35", "nummberOfGrades": "43"
 },
 {
   "id": 3, "title": "Saxat", "adress": "Storgatan 3", "postNrStad": "111 11 Stockholm", "www": "www.saxat.com", "price": 200, "phone": "08/800 00 00", 
   "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,", 
-  "hours": "10.00 - 18.00", "grade": 3, "time": "14.00", "duration": "55"
+  "hours": "10.00 - 18.00", "grade": 3, "time": "14.00", "duration": "55", "nummberOfGrades": "44"
 },
 {
   "id": 4, "title": "Hårhuset", "adress": "Storgatan 4", "postNrStad": "111 11 Stockholm", "www": "www.harhuset.com", "price": 250, "phone": "08/800 00 00", 
   "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,",
-  "hours": "10.00 - 18.00", "grade": 2, "time": "9.00", "duration": "45"
+  "hours": "10.00 - 18.00", "grade": 2, "time": "9.00", "duration": "45", "nummberOfGrades": "13"
 },
 {
   "id": 5, "title": "Hårfin", "adress": "Storgatan 5", "postNrStad": "111 11 Stockholm", "www": "www.harfint.com", "price": 300, "phone": "08/800 00 00", 
   "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,",
-  "hours": "10.00 - 18.00", "grade": 1, "time": "7.45", "duration": "60"
+  "hours": "10.00 - 18.00", "grade": 1, "time": "7.45", "duration": "60", "nummberOfGrades": "28"
 },
 {
   "id": 6, "title": "Hairy Biker", "adress": "Storgatan 6", "postNrStad": "111 11 Stockholm", "www": "www.hairybiker.com", "price": 350, "phone": "08/800 00 00", 
   "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,",
-  "hours": "10.00 - 18.00", "grade": 0, "time": "17.00", "duration": "30"
+  "hours": "10.00 - 18.00", "grade": 0, "time": "17.00", "duration": "30", "nummberOfGrades": "53"
 },
 {
   "id": 7, "title": "Nu är det klipt", "adress": "Storgatan 7", "postNrStad": "111 11 Stockholm", "www": "www.nuklipt.com", "price": 1400, "phone": "08/800 00 00", 
   "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,",
-  "hours": "10.00 - 18.00", "grade": 4, "time": "14.20", "duration": "15"},
+  "hours": "10.00 - 18.00", "grade": 4, "time": "14.20", "duration": "15", "nummberOfGrades": "12"
+},
 {
   "id": 8, "title": "Hair & Nu", "adress": "Storgatan 8", "postNrStad": "111 11 Stockholm", "www": "www.hairnu.com", "price": 450, "phone": "08/800 00 00", 
   "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,",
-  "hours": "10.00 - 18.00", "grade": 3, "time": "10.30", "duration": "40"
+  "hours": "10.00 - 18.00", "grade": 3, "time": "10.30", "duration": "40", "nummberOfGrades": "31"
 },
 {
   "id": 9, "title": "Fön & Rön", "adress": "Storgatan 9", "postNrStad": "111 11 Stockholm", "www": "www.fonoron.com", "price": 500, "phone": "08/800 00 00", 
   "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,",
-  "hours": "10.00 - 18.00", "grade": 2, "time": "21.47", "duration": "50"
+  "hours": "10.00 - 18.00", "grade": 2, "time": "21.47", "duration": "50", "nummberOfGrades": "41"
 },
 {
   "id": 10, "title": "Premanent", "adress": "Storgatan 10", "postNrStad": "111 11 Stockholm", "www": "www.permanent.com", "price": 550, "phone": "08/800 00 00", 
   "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,",
-  "hours": "10.00 - 18.00", "grade": 5, "time": "6.30", "duration": "65"
+  "hours": "10.00 - 18.00", "grade": 5, "time": "6.30", "duration": "65", "nummberOfGrades": "51"
 }]

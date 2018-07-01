@@ -63,7 +63,7 @@ class List extends Component {
                 {this.low}
                 <br></br>
                 <div className="starSize paddingMiddle">
-                  {grade(salong.grade)}
+                  {grade(salong.grade, salong.nummberOfGrades)}
                 </div>
                 <span className=" paddingMiddle adressSize">{salong.adress}</span>
               </div> 

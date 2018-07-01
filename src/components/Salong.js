@@ -31,7 +31,7 @@ class Salong extends Component {
                 <span className="fontMiller headerSize">{salong.title}</span>
                 <div className="starSizeDiv ">
                   <br></br>
-                  {grade(salong.grade)}
+                  {grade(salong.grade, salong.nummberOfGrades)}
                 </div>
               </div>
             </div>

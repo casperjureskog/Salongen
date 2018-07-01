@@ -1,31 +1,35 @@
+### Salongsida
 
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+Nedan finner du instruktioner för att köra sidan
 
-## Table of Contents
+## Projektets innehåll
 
 - Node.js
 - React.js
+- Github
 - Material-Icon
 - React-router-dom
 
 
-* to run Prodject
+## För att starta projektet
+
+### Ladda ner det från Github
+```
+git clone https://github.com/casperjureskog/Salongen.git
+```
+
+```
+cd salongen
+```
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Öppna [http://localhost:3000](http://localhost:3000) för att se sidan i browsern.
+(Kör den gärna i 'inspekterings'-läget i mobilsimuleringsläge) 
 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
+## Views
+<br>
 * List view
 <br>
 <img src = "https://github.com/casperjureskog/Salongen/blob/master/src/readmeImages/list.png" />
@@ -43,9 +47,3 @@ Your app is ready to be deployed!
 <br>
 <img src = "https://github.com/casperjureskog/Salongen/blob/master/src/readmeImages/salong.png" />
 <br>
-
-
-
-
-
-
