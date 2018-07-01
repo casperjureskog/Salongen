@@ -1,0 +1,81 @@
+.infoList {
+  padding: 2%;
+  display: flex;
+  align-items: center;
+}
+
+.nameRating {
+  padding-left: 3.5vw;
+}
+
+.paragraf {
+  padding-left: 2.5vh;
+}
+
+.hrLight {
+  margin: 1.5vh 0 1vh;
+}
+
+.tab {
+  padding-top: 2vh;
+  width: 50vw;
+  text-align: center;
+}
+
+.starSizeDiv {
+  display: flex;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.salongHeader {
+  background-color: #999;
+  color: #fff;
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:1.5vh 0 2vh;
+  background-image: url("../images/hair.jpg");
+}
+
+.iconPadding {
+  font-size: 18px;
+  padding:0 2.6vw 0 1vw;
+  color: #999;
+}
+
+.white {
+  background-color: #fff;
+  height: 1px;
+  border: 0;
+}
+
+.menuHr {
+  margin: 1.5vh 0 0px;
+}
+
+
+.headerSize {
+  font-size: 22px;
+}
+
+.starSize {
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.infoText {
+  font-size: 12px;
+}
+
+.graySpace {
+  height: 2.7vh;
+  margin-bottom: 0.5vh;
+  background-color: #F9F9F9;
+}

@@ -1,0 +1,8 @@
+.starSize {
+  font-size: 11px;
+  vertical-align: middle;
+}
+
+.rotate {
+  transform: rotate(90deg)
+}

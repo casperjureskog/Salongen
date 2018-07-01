@@ -4,7 +4,16 @@
   font-weight: 400;
   src:
     local('MillerBanner'),
-    url(./fonts/MillerBanner.otf) format('otf'),
+    url(../fonts/MillerBanner.otf) format('otf'),
+}
+
+a {
+ color: inherit;
+ text-decoration: none;
+}
+
+a:hover {
+    color: #999;
 }
 
 .fontMiller {
@@ -15,53 +24,42 @@
   font-size: 13px;
 }
 
-.App-header {
+.headerTitle {
   font-family: 'MillerBanner', sans-serif;
-  background-color: white;
-  width: inherit;
-  height: 0.8rem;
-  padding: 20px;
-  padding-bottom: 10px;
   color: black;
-  font-size: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .listHeight {
-  width: 20%;
-  height: 4.5rem;
+  padding-top: 1.5vh;
+  width: 15vw;
+  height: 10vh;
   vertical-align: top;
 }
 
 .listRight {
-  width: 25%;
+  width: 25vw;
 }
 
-.starSize {
-  font-size: 11px;
-  vertical-align: middle;
-}
+
 
 .paddingMiddle {
-  margin-top: 0.4rem;
-  margin-bottom: 0.4rem;
+  margin-top: 0.9vh;
+  margin-bottom: 0.9vh;
 }
 
 .adressSize {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: lighter;
 }
 
 .ratingText {
   font-size: 9px;
-  padding-left: 5px;
+  padding-left: 1vh;
   color: #BBBBBB;
 }
 
 .arrowSize {
-  margin-top: 0.4rem;
+  margin-top: 0.9vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -72,17 +70,21 @@
 
 .listBody {
   width: 60%;
-  height: 4.5rem;
+  height: 9.5vh;
 }
 
 .arrow {
-  font-size: 20px;
+  font-size: 12px;
   vertical-align: bottom;
 }
 
+.filterListPadding {
+  padding-top: 1.5vh;
+}
+
 .filterMenu {
-  padding-left: 20px;
-  padding-right: 16px;
+  cursor: pointer;
+  padding: 0.5vh 3.8vw 0.5vh 6.5vw;
   font-size: 13px;
   display: flex;
   align-items: center;
@@ -90,29 +92,24 @@
 }
 
 .menuPadding {
-  padding-bottom: 10px;
+  padding-bottom: 2vh;
 }
 
 .listMenu {
-  padding-left: 20px;
-  padding-right: 6px;
+  cursor: pointer;
+  padding: 0 2vw 0 6.5vw;
+  margin-bottom: 3.5vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .hrLight {
-  margin-left: 7%;
-  width: 89%;
-  margin-right: 4%;
-  margin-bottom: 1rem;
-  background-color: #E8E8E8; 
+  margin: 0vh 4vw 1vw 7vw;
+  width: 89vw;
   height: 1px; 
+  background-color: #E8E8E8;
   border: 0;
-}
-
-.gold {
-  color: #D4B96A;
 }
 
 hr {
@@ -121,6 +118,3 @@ hr {
   border: 0;
 }
 
-.rotate {
-  transform: rotate(90deg)
-}

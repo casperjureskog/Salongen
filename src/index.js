@@ -1,7 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { BrowserRouter, Route} from "react-router-dom";
+
+import List from './components/List';
+import Salong from './components/Salong';
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+
+ReactDOM.render(
+  <BrowserRouter>
+    <div>
+      <Route exact path='/' component={List} />
+      <Route path='/salong/:id' component={Salong} />
+    </div>
+  </BrowserRouter>
+  ,
+  document.getElementById('root')
+);
