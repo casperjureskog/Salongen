@@ -26,7 +26,7 @@ export function header(view){
   }
 }
 
-export function grade(stars) {
+export function grade(stars, nummberOfGrades) {
   var i = 0;
   var starIcon = [];
   while (i < 5) {
@@ -37,6 +37,6 @@ export function grade(stars) {
     }
     i++;
   }
-  starIcon.push(<span key={6} className="ratingText">{stars}/5</span>)
+  starIcon.push(<span key={6} className="ratingText">({nummberOfGrades})</span>)
   return  starIcon;
 }
