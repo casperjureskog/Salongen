@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'material-icons-react';
 import './Salong.css';
-import SalongList from './salongList';
+import SalongData from './salongData';
 import { header, grade } from './shardComponents'
 
 
@@ -21,10 +21,10 @@ class Salong extends Component {
   }
   
   salongInfo() {
-    var salongen = SalongList.map(salong => {
+    var salongen = SalongData.map(salong => {
       if (salong.id === Number(this.props.match.params.id))  {
-        return (  
-          <div key={salong.id}> 
+        return (
+          <div key={salong.id}>
             <div className="salongHeader">
               {header('info')}
               <div className="nameRating">
@@ -41,23 +41,23 @@ class Salong extends Component {
               <i className="material-icons iconPadding">room</i>
               <span className="infoText"> {salong.adress} {salong.postNrStad}</span>
             </div>
-            <div className="hrLight"></div>
+            <div className="hrLightSalong"></div>
             <div className="infoList">
               <i className="material-icons iconPadding">access_time</i>
               <span className="infoText"> Öppet mellan {salong.hours} idag </span>
               <i className="material-icons gold">expand_more</i>
             </div>
-            <div className="hrLight"></div>
+            <div className="hrLightSalong"></div>
             <div className="infoList">
               <i className="material-icons iconPadding">phone</i>
               <span className="infoText"> {salong.phone}</span>
             </div>
-            <div className="hrLight"></div>
+            <div className="hrLightSalong"></div>
             <div className="infoList">
               <i className="material-icons iconPadding">language</i>
               <span className="infoText"> {salong.www}</span>
             </div>
-            <div className="hrLight"></div>
+            <div className="hrLightSalong"></div>
             <div className="infoList paragraf">
               <span className="infoText"> {salong.description}</span>
             </div>

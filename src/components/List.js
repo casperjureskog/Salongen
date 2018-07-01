@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './List.css';
-import SalongList from './salongList';
+import SalongData from './salongData';
 import { header, grade } from './shardComponents'
 import { Link } from 'react-router-dom'
 
@@ -52,7 +52,7 @@ class List extends Component {
   
   list() {
     var lista = []
-    SalongList.map((salong) => {
+    SalongData.map((salong) => {
       if (salong.price > this.state.interMin && (salong.price < this.state.interMax || !this.state.interMax)) {
         lista.push( 
           <Link to={"/salong/"+salong.id} key={salong.id}>

@@ -15,7 +15,6 @@ ReactDOM.render(
       <Route exact path='/' component={List} />
       <Route path='/salong/:id' component={Salong} />
     </div>
-  </BrowserRouter>
-  ,
+  </BrowserRouter>,
   document.getElementById('root')
 );
