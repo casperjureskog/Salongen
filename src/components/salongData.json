@@ -44,7 +44,7 @@
   "hours": "10.00 - 18.00", "grade": 2, "time": "21.47", "duration": "50", "nummberOfGrades": "41"
 },
 {
-  "id": 10, "title": "Premanent", "adress": "Storgatan 10", "postNrStad": "111 11 Stockholm", "www": "www.permanent.com", "price": 550, "phone": "08/800 00 00", 
+  "id": 10, "title": "Permanent", "adress": "Storgatan 10", "postNrStad": "111 11 Stockholm", "www": "www.permanent.com", "price": 550, "phone": "08/800 00 00", 
   "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,",
   "hours": "10.00 - 18.00", "grade": 5, "time": "6.30", "duration": "65", "nummberOfGrades": "51"
 }]
