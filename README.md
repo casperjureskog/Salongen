@@ -22,6 +22,8 @@ git clone https://github.com/casperjureskog/Salongen.git
 cd salongen
 ```
 
+### `npm install`
+
 ### `npm start`
 
 Öppna [http://localhost:3000](http://localhost:3000) för att se sidan i browsern.
