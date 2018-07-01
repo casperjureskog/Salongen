@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './List.css';
 import SalongList from './salongList';
+import { header, grade } from './shardComponents'
 import { Link } from 'react-router-dom'
 
 class List extends Component {
@@ -12,16 +13,6 @@ class List extends Component {
       interMin: 0,
       interMax: undefined,
     };
-  }
-
-  header(){
-    return (
-      <header className="App-header">
-          <i className="material-icons gold">arrow_back_ios</i>
-          Hår
-          <i className="material-icons rotate gold">tune</i>
-      </header>
-    );
   }
   
   menuText() {
@@ -38,21 +29,6 @@ class List extends Component {
     )
   }
   
-  grade(stars) {
-    var i = 0;
-    var starIcon = [];
-    while (i < 5) {
-      if (stars > i) {
-        starIcon.push(<i key={i} className="material-icons gold starSize">star</i>);
-      } else {
-        starIcon.push(<i key={i} className="material-icons gold starSize">star_border</i>);
-      }
-      i++;
-    }
-    starIcon.push(<span key={6} className="ratingText">{stars}/5</span>)    
-    return  starIcon;
-  }
-  
   filterMenu() {
     return (
       <div className="filterMenu" onClick={() => this.setState({ filterMenuOn: !this.state.filterMenuOn })}>
@@ -64,7 +40,7 @@ class List extends Component {
   
   filterList(low, high) {
     return (
-      <div>
+      <div className="filterListPadding">
         <div className="filterMenu menuPadding gold" onClick={() => this.setState({ interMin: 0, interMax: undefined, filterMenuState: 'Pris filter', filterMenuOn: false })}> Inget filter </div>
         <div className="filterMenu menuPadding gold" onClick={() => this.setState({ interMin: 0, interMax: 250, filterMenuState: undefined, filterMenuOn: false })}> Pris 0 - 250 kr </div>
         <div className="filterMenu menuPadding gold" onClick={() => this.setState({ interMin: 250, interMax: 500, filterMenuState: undefined, filterMenuOn: false })}> Pris 250 - 500 kr </div>
@@ -80,7 +56,6 @@ class List extends Component {
       if (salong.price > this.state.interMin && (salong.price < this.state.interMax || !this.state.interMax)) {
         lista.push( 
           <Link to={"/salong/"+salong.id} key={salong.id}>
-          <div> 
             <div className="listMenu">
               <div className="listHeight infoFont">{salong.time}</div>  
               <div className="listBody">
@@ -88,9 +63,9 @@ class List extends Component {
                 {this.low}
                 <br></br>
                 <div className="starSize paddingMiddle">
-                  {this.grade(salong.grade)}
+                  {grade(salong.grade)}
                 </div>
-                <span className="starSize paddingMiddle adressSize">{salong.adress}</span>
+                <span className=" paddingMiddle adressSize">{salong.adress}</span>
               </div> 
               <div className="listHeight listRight infoFont">
                 {salong.price} kr
@@ -101,10 +76,8 @@ class List extends Component {
               </div>
             </div>
             <div className="hrLight"></div>
-          </div>
           </Link>
         );
-        return 
       }
     });
     return lista;
@@ -112,8 +85,8 @@ class List extends Component {
 
   render() {
     return (
-      <div className="App">
-        {this.header()}
+      <div>
+        {header()}
         <div className="gold"><hr></hr></div>
         {this.filterMenu()}
         {this.state.filterMenuOn && this.filterList()}
