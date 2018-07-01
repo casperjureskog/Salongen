@@ -27,13 +27,22 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 * List view
+<br>
+<img src = "https://github.com/casperjureskog/Salongen/blob/master/src/readmeImages/list.png" />
+<br>
 
 
 
 * List view menu down
+<br>
+<img src = "https://github.com/casperjureskog/Salongen/blob/master/src/readmeImages/listMenu.png" />
+<br>
 
 
 * Salong view
+<br>
+<img src = "https://github.com/casperjureskog/Salongen/blob/master/src/readmeImages/salong.png" />
+<br>
 
 
 
